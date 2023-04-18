@@ -1,0 +1,71 @@
+inherit_from:
+  - ../.rubocop_rspec.yml
+
+Homebrew/MoveToExtendOS:
+  Enabled: true
+  Exclude:
+    - "{extend,test,requirements}/**/*"
+    - "os.rb"
+
+# make rspec formatting more flexible
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - "**/*_spec.rb"
+
+# TODO: Try to bring down all metrics maximums.
+Metrics/AbcSize:
+  Max: 241
+Metrics/BlockLength:
+  Max: 86
+Metrics/BlockNesting:
+  Max: 5
+Metrics/ClassLength:
+  Max: 736
+Metrics/CyclomaticComplexity:
+  Max: 68
+Metrics/PerceivedComplexity:
+  Max: 84
+Metrics/MethodLength:
+  Max: 232
+Metrics/ModuleLength:
+  Max: 481
+
+Naming/PredicateName:
+  # Can't rename these.
+  AllowedMethods:
+    - is_a?
+    - is_32_bit?
+    - is_64_bit?
+
+Style/Documentation:
+  AllowedConstants:
+    - Homebrew
+  Exclude:
+    - "extend/**/*.rb"
+    - "test/**/*.rb"
+    - "cask/macos.rb"
+    - "cli/args.rb"
+    - "cli/parser.rb"
+    - "cmd/list.rb"
+    - "cmd/update-report.rb"
+    - "dev-cmd/irb.rb"
+    - "dev-cmd/pr-pull.rb"
+    - "keg_relocate.rb"
+    - "os/mac/keg.rb"
+    - "software_spec.rb"
+    - "utils.rb"
+    - "utils/fork.rb"
+    - "utils/git_repository.rb"
+    - "utils/popen.rb"
+    - "utils/shell.rb"
+
+Style/HashAsLastArrayItem:
+  Exclude:
+    - "test/utils/spdx_spec.rb"
+
+Style/BlockDelimiters:
+  BracesRequiredMethods:
+    - "sig"
+
+Bundler/GemFilename:
+  Enabled: false
