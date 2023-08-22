@@ -1,0 +1,243 @@
+body {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  font-family: Tilt Prism, serif;
+}
+.article {
+  background-position: center;
+  font-family: Lato, serif;
+  background-size: cover;
+  text-align: center;
+  background: url('https://static.vecteezy.com/system/resources/previews/000/402/350/original/seamless-colorful-diagonal-stripes-pattern-vector.jpg');
+  background-size: contain;
+  font-weight: 50%;
+  color: black;
+  margin: 0px 80px;
+  padding: 0 20% 50px 20%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+nav {
+  text-align: center;
+  position: relative;
+  /* top: -30px; */
+
+  width: 100%;
+  background-image: url('https://thumbs.dreamstime.com/z/cartoon-autumn-park-vector-illustration-colorful-city-98896277.jpg?w=992');
+  background-size: contain;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+nav img {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  word-spacing: 10px;
+}
+
+nav a {
+  display: inline;
+  padding: 35px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 10px 0px;
+  font-family: Lato;
+  font-size: large;
+  word-spacing: 10px;
+  text-decoration: none;
+  color: rgb(39, 38, 38);
+}
+nav a:hover {
+  color: aliceblue;
+}
+nav a:active {
+  color: gray;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  font-size: 1.44rem;
+  font-weight: 500;
+  border-top: 4px solid #ffb78c;
+  height: 20rem;
+  border-bottom: 4px solid #ffb78c;
+  display: flex;
+
+  background: url('https://media1.thehungryjpeg.com/thumbs2/ori_3445502_ad86694f09350b5b7ddddd2f468e8f991b86a648_20-inclined-stripes-background-textures.jpg  ')
+    center center no-repeat;
+}
+p {
+  font-size: medium;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: red;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  opacity: 0.9;
+  padding: 0 40px;
+}
+
+li {
+  color: #171313;
+  background-color: #fff;
+  border: 1px solid #fb7ea8;
+  font-weight: 300;
+  font-size: smaller;
+  border-radius: 3px;
+  padding-bottom: 5px;
+  padding: 0 20px;
+}
+ul li {
+  font-weight: lighter;
+}
+.banner h1 {
+  font-size: 130px;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.photo {
+  padding: 10px 20px;
+  background-color: azure;
+  border-radius: 5px;
+  position: relative;
+  top: -2.77rem;
+  width: 75%;
+  margin: 0 auto 2.44rem auto;
+  overflow: hidden;
+}
+.photo1 {
+  padding: 10px 20px;
+  background-color: azure;
+  border-radius: 5px;
+  position: relative;
+  width: 75%;
+  margin: 0 auto 2.44rem auto;
+
+  overflow: hidden;
+}
+
+.caption {
+  color: black;
+  line-height: 0.87;
+  padding-top: 0;
+  font-family: Caveat;
+  font-weight: 800;
+}
+.list {
+  font-size: large;
+  font-family: Lato;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.warning h6 {
+  background-color: red;
+  color: white;
+  font-family: Tilt Prism;
+  font-size: xxx-large;
+  border-radius: 5px;
+  border: 2px dashed black;
+  margin: 40px;
+  overflow: auto;
+}
+.container {
+  max-width: 10px;
+  margin: 0 25%;
+  /* height: 100px; */
+}
+.table {
+  /* display: inline-flexbox; */
+  overflow: auto;
+  /* display: inline-table; */
+  margin: 0 10%;
+  margin-left: 15%;
+}
+table {
+  border: 3px solid black;
+  border-radius: 5px;
+  text-align: center;
+  /* margin: 0 25%; */
+  background-color: dodgerblue;
+  opacity: 0.95;
+  color: #fff;
+  /* flex: calc(50% - 20px); */
+  /* width: auto; */
+  display: inline-flexbox;
+  overflow: hidden;
+  /* display: contents; */
+}
+
+.left {
+  text-align: center;
+  margin: 20px auto;
+}
+
+table h2 {
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+tbody td {
+  padding: 0 80px;
+}
+.platforms {
+  display: inline-table;
+  z-index: 1;
+}
+.platforms a h5 {
+  color: purple;
+  background-color: white;
+  box-shadow: #171313;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 5px;
+  box-shadow: 3px 4px;
+  margin: 5px 20px;
+}
+.platforms a h5:hover {
+  color: #ff00ff;
+  background-color: pink;
+  box-shadow: 0px 0px;
+}
+.foot {
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: deepskyblue;
+}
+foot p {
+  text-align: center;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 55px;
+  right: 30px;
+  z-index: 99;
+  font-size: 19px;
+  border: none;
+  outline: none;
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#myBtn:hover {
+  background-color: #dc143c;
+}
+#myBtn:active {
+  background-color: #8a2be2;
+}
